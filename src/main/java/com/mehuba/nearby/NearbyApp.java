@@ -6,4 +6,7 @@ package com.mehuba.nearby;
 
 
 public class NearbyApp {
+    public static void main(String[] args) {
+
+    }
 }
