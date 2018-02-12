@@ -5,7 +5,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
-import org.springframework.core.Ordered;
 
 import java.util.Arrays;
 
@@ -19,7 +18,7 @@ public class NearbyApp {
         SpringApplication.run(NearbyApp.class, args);
     }
 
-    @Bean
+//    @Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         return args -> {
             System.out.println("Inspect Spring Boot created beans.");
