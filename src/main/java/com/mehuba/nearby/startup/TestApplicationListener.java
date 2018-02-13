@@ -1,4 +1,4 @@
-package com.mehuba.nearby;
+package com.mehuba.nearby.startup;
 
 import org.springframework.context.ApplicationEvent;
 import org.springframework.context.ApplicationListener;
