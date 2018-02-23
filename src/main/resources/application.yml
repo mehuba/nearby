@@ -1,6 +1,13 @@
+spring:
+  data:
+    mongodb:
+      host:
+
+
 endpoints:
   sensitive: false
 management:
   info:
     git:
       mode: full
+
